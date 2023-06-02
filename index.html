@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>CUENTA CORRIENTE</title>
+</head>
+
+<body>
+    <h1>Mi Cuenta Corriente</h1>
+
+    <input type="text" id="montoInput" placeholder="Ingrese el monto"/>
+
+    <p id="balanceText">Balance actual: <strong><span id="balance">0</span></p></strong>
+
+    <div class="identificador">
+        <p>Cuenta corriente N° 563259/898</p>
+        <p>ALIAS: BAUTI.ELMEJOR.CAPO</p>
+        <p>CBU: 00071234567891230123</p>
+        <p>Bautista Caschetto</p>
+    </div>
+
+    <div class="buttons">
+        <button id="depositarBtn">Depositar</button>
+        <button id="retirarBtn">Extraer</button>
+        <button id="resetBtn">Reiniciar</button>
+    </div>
+
+    <table id="tablaTransacciones">
+        <thead>
+            <tr>
+                <th>Fecha del movimiento</th>
+                <th>Monto</th>
+                <th>Balance parcial</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <footer>Desarrollado por Bautista Caschetto</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
